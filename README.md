@@ -3,7 +3,7 @@
 个人工具库
 
 <h2>XLPicker</h2>
- <img src="https://github.com/OPTJoker/XLTools/blob/master/XLPickerGif.gif" width = "300" height = "490" alt="XLPicker效果图" align=center />
+ <img src="https://github.com/OPTJoker/XLTools/blob/master/XLPicker_gif.gif" width = "480" height = "320" alt="XLPicker效果图" align=center />
 ```objc 
 // 根UITableView用法一样，首先遵循XLPickerDataSource 和XLPickerDelegate(如果不需要处理点击响应，也可不加) 
 // 必选 @protocol XLPickerDataSource
