@@ -1,7 +1,7 @@
 # XLTools
 个人工具库
 <h3>XLPicker</h3>
-'''objc
+···objc
 // 根UITableView用法一样，首先遵循XLPickerDataSource 和XLPickerDelegate(如果不需要处理点击响应，也可不加)
 // 必选
 @protocol XLPickerDataSource <NSObject>
@@ -14,10 +14,10 @@
 - (CGFloat)heightForXLPickerView:(XLPickerView *)picker;
 - (void)xlPickerView:(XLPickerView *)picker didSelectItemAtIndex:(NSInteger)index;
 - (void)xlPickerView:(XLPickerView *)picker didUnSelectItemAtIndex:(NSInteger)index;
-'''
+···
 
 <h4>使用示例</h4>
-'''objc
+···objc
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = KLIGHTGRAYCOLOR;
@@ -61,5 +61,5 @@
     return 44;  // 默认也是44
 }
 
-'''
+···
 
