@@ -3,7 +3,7 @@
 个人工具库
 
 <h2>XLPicker</h2>
-  <iframe height=300 width=450 src="https://github.com/OPTJoker/XLTools/blob/master/XLPickerGif.gif"  />
+  <img height=300 width=450 src="https://github.com/OPTJoker/XLTools/blob/master/XLPickerGif.gif" />
  
 ```objc 
 // 根UITableView用法一样，首先遵循XLPickerDataSource 和XLPickerDelegate(如果不需要处理点击响应，也可不加) 
