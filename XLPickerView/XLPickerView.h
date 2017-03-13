@@ -24,7 +24,7 @@
 @optional
 - (CGFloat)heightForXLPickerView:(XLPickerView *)picker;
 - (void)xlPickerView:(XLPickerView *)picker didSelectItemAtIndex:(NSInteger)index;
-- (void)xlPickerView:(XLPickerView *)picker didUnSelectItemAtIndex:(NSInteger)index;
+- (void)xlPickerView:(XLPickerView *)picker didDeSelectItemAtIndex:(NSInteger)index;
 
 @end
 
@@ -38,4 +38,14 @@
 - (void)reloadData;
 - (void)selectItem:(NSInteger)idx;
 
+/**
+ 返回当前选中的item index
+ */
+- (NSInteger)currentSelectedIndex;
+- (void)setTitle:(NSString *)title atIndex:(NSInteger)index;
+- (void)cancleSelect;
+
+@property (nonatomic, assign) NSInteger maxShowNum;
 @end
+
+
