@@ -1,9 +1,5 @@
 # XLTools
-个人工具库之
-个人工具库
-
-<h2>XLPicker</h2>
-  <img height=300 width=450 src="https://github.com/OPTJoker/XLTools/blob/master/XLPickerGif.gif" />
+个人开发工具库
  
 ```objc 
 // 根UITableView用法一样，首先遵循XLPickerDataSource 和XLPickerDelegate(如果不需要处理点击响应，也可不加) 
@@ -17,7 +13,7 @@
 (void)xlPickerView:(XLPickerView *)picker didSelectItemAtIndex:(NSInteger)index;
 (void)xlPickerView:(XLPickerView *)picker didUnSelectItemAtIndex:(NSInteger)index; 
 ```
-使用示例
+XLPickerView 使用示例
 
 ```objc
 
